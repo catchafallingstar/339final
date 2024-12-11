@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Input Challenge</title>
+</head>
+<body>
+    <h1>Form Input Challenge</h1>
+    <form action="success.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="color" required><br>
+        <input type="hidden" name = "q" value = "fb">
+    </form>
+    <script>
+        document.querySelector('form').addEventListener('keydown', function(e) {
+            console.log("Here")
+            if (e.key === 'Enter') {
+              e.preventDefault();
+            }
+          });
+        </script>
+    
+</body>
+</html>

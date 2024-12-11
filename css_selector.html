@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src = "js/exam.js"></script>
+    <title>CSS Selector Challenge</title>
+</head>
+<body>
+    <main>
+        <h1>CSS Selector Challenge</h1>
+        <div id="main-content">
+           <section class="highlighted">
+               <a href="#">Link 1</a>
+               <a href="#">Link 2</a>
+               <a href="#">Link 3</a>
+               <a href="#">Link 4</a>
+               <a href="#">Link 5</a>
+           </section>
+        </div>
+    </main>
+    <section>
+        <form>
+            <label for="cssSelector">Enter the CSS selector:</label>
+            <input type="text" id="cssSelector" name="cssSelector" required onchange="checkCSS(this)">
+        </form>
+        <p id="feedback"></p>
+    </section>   
+</body>
+</html>
